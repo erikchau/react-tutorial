@@ -108,6 +108,6 @@ var data = [
 ];
 
 React.render(
-  <CommentBox url="comments.json" pollInterval={2000} />,
+  <CommentBox url="http://erikchau.com/react-tutorial/comments.json" pollInterval={2000} />,
   document.getElementById('content')
 );
